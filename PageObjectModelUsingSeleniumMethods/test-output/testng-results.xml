@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55714" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:41:24 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="55714" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:41:24 IST">
+      <class name="testCases.TC001_CreateLead">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="startReport" is-config="true" duration-ms="323" started-at="2019-11-19T21:40:28 IST" finished-at="2019-11-19T21:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="setData" is-config="true" duration-ms="0" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="setUpClass" is-config="true" duration-ms="229" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="report" is-config="true" duration-ms="4" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="beforeMethod" is-config="true" duration-ms="5264" started-at="2019-11-19T21:40:29 IST" finished-at="2019-11-19T21:40:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="loginTestCases" duration-ms="17684" started-at="2019-11-19T21:40:35 IST" data-provider="fetchData" finished-at="2019-11-19T21:40:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Alpha]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Beta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCases -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="afterMethod" is-config="true" duration-ms="2117" started-at="2019-11-19T21:40:52 IST" finished-at="2019-11-19T21:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="beforeMethod" is-config="true" duration-ms="5487" started-at="2019-11-19T21:40:54 IST" finished-at="2019-11-19T21:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTestCases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="loginTestCases" duration-ms="22205" started-at="2019-11-19T21:41:00 IST" data-provider="fetchData" finished-at="2019-11-19T21:41:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FaceBook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gamma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lambda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCases -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="afterMethod" is-config="true" duration-ms="2117" started-at="2019-11-19T21:41:22 IST" finished-at="2019-11-19T21:41:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2019-11-19T21:41:24 IST" finished-at="2019-11-19T21:41:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testCases.TC001_CreateLead@27a8c74e]" name="stopReport" is-config="true" duration-ms="310" started-at="2019-11-19T21:41:24 IST" finished-at="2019-11-19T21:41:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testCases.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

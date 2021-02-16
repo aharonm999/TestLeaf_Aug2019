@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.TC001_CreateLead">
+        <methods>
+          <include name="stopReport"/>
+          <include name="setUpClass"/>
+          <include name="report"/>
+          <include name="startReport"/>
+          <include name="afterMethod"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="loginTestCases" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testCases.TC001_CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
